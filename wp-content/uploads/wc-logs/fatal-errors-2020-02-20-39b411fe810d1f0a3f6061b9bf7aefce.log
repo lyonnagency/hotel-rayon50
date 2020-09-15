@@ -1,0 +1,18 @@
+2020-02-20T22:57:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in C:\xampp\htdocs\hotelrayon\wp-content\themes\hoteller\page-habitaciones-custom.php:90
+Stack trace:
+#0 C:\xampp\htdocs\hotelrayon\wp-includes\template-loader.php(98): include()
+#1 C:\xampp\htdocs\hotelrayon\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotelrayon\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\hotelrayon\wp-content\themes\hoteller\page-habitaciones-custom.php en la línea 90
+
+2020-02-20T22:59:39+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ';' or ',' en C:\xampp\htdocs\hotelrayon\wp-content\themes\hoteller\page-habitaciones-custom.php en la línea 92
+
+2020-02-20T23:10:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in C:\xampp\htdocs\hotelrayon\wp-content\themes\hoteller\page-habitaciones-custom.php:96
+Stack trace:
+#0 C:\xampp\htdocs\hotelrayon\wp-includes\template-loader.php(98): include()
+#1 C:\xampp\htdocs\hotelrayon\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotelrayon\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\hotelrayon\wp-content\themes\hoteller\page-habitaciones-custom.php en la línea 96
+

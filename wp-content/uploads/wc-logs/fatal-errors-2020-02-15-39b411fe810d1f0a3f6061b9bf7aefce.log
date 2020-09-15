@@ -1,0 +1,8 @@
+2020-02-15T04:34:51+00:00 CRITICAL Uncaught Error: Call to undefined function vard_dump() in C:\xampp2\htdocs\hotelrayon\wp-content\themes\hoteller\single-rayon_habitaciones.php:232
+Stack trace:
+#0 C:\xampp2\htdocs\hotelrayon\wp-includes\template-loader.php(98): include()
+#1 C:\xampp2\htdocs\hotelrayon\wp-blog-header.php(19): require_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\hotelrayon\index.php(17): require('C:\\xampp2\\htdoc...')
+#3 {main}
+  thrown en C:\xampp2\htdocs\hotelrayon\wp-content\themes\hoteller\single-rayon_habitaciones.php en la línea 232
+

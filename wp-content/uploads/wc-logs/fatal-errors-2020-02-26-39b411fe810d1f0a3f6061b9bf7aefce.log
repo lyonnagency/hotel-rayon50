@@ -1,0 +1,18 @@
+2020-02-26T19:07:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_titl() in C:\xampp\htdocs\hotelrayon\wp-content\themes\hoteller\single-rayon_habitaciones.php:163
+Stack trace:
+#0 C:\xampp\htdocs\hotelrayon\wp-includes\template-loader.php(98): include()
+#1 C:\xampp\htdocs\hotelrayon\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotelrayon\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\hotelrayon\wp-content\themes\hoteller\single-rayon_habitaciones.php on line 163
+
+2020-02-26T20:09:39+00:00 CRITICAL Uncaught Error: Call to a member function unschedule() on null in C:\xampp\htdocs\hotelrayon\wp-content\plugins\mphb-request-payment\classes\Plugin.php:232
+Stack trace:
+#0 C:\xampp\htdocs\hotelrayon\wp-includes\class-wp-hook.php(288): MPHB\Addons\RequestPayment\Plugin->onDeactivate(false)
+#1 C:\xampp\htdocs\hotelrayon\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\hotelrayon\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\hotelrayon\wp-admin\includes\plugin.php(802): do_action('deactivate_mphb...', false)
+#4 C:\xampp\htdocs\hotelrayon\wp-admin\plugins.php(192): deactivate_plugins('mphb-request-pa...', false, false)
+#5 {main}
+  thrown en C:\xampp\htdocs\hotelrayon\wp-content\plugins\mphb-request-payment\classes\Plugin.php en la línea 232
+

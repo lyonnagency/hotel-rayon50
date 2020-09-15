@@ -1,0 +1,6 @@
+<wpml-config>
+    <admin-texts>
+        <key name="mphb_payment_gateway_woocommerce_title"/>
+        <key name="mphb_payment_gateway_woocommerce_description"/>
+    </admin-texts>
+</wpml-config>

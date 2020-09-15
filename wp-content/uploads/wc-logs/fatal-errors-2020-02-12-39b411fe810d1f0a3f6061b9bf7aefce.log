@@ -1,0 +1,77 @@
+2020-02-12T19:26:04+00:00 CRITICAL Uncaught Error: Call to undefined function hoteller_get_page_postmetas() in C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php:9
+Stack trace:
+#0 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(288): hoteller_page_create_meta_box('')
+#1 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\menu.php(326): require_once('C:\\Users\\Valkir...')
+#5 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\admin.php(153): require('C:\\Users\\Valkir...')
+#6 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\Valkir...')
+#7 { en C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php en la línea 9
+
+2020-02-12T19:26:26+00:00 CRITICAL Uncaught Error: Call to undefined function hoteller_get_page_postmetas() in C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php:9
+Stack trace:
+#0 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(288): hoteller_page_create_meta_box('')
+#1 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\menu.php(326): require_once('C:\\Users\\Valkir...')
+#5 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\admin.php(153): require('C:\\Users\\Valkir...')
+#6 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\Valkir...')
+#7 { en C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php en la línea 9
+
+2020-02-12T19:26:30+00:00 CRITICAL Uncaught Error: Call to undefined function hoteller_get_page_postmetas() in C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php:9
+Stack trace:
+#0 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(288): hoteller_page_create_meta_box('')
+#1 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\menu.php(326): require_once('C:\\Users\\Valkir...')
+#5 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\admin.php(153): require('C:\\Users\\Valkir...')
+#6 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Valkir...')
+#7 {m en C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php en la línea 9
+
+2020-02-12T19:26:52+00:00 CRITICAL Uncaught Error: Call to undefined function hoteller_get_page_postmetas() in C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php:9
+Stack trace:
+#0 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(288): hoteller_page_create_meta_box('')
+#1 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\menu.php(326): require_once('C:\\Users\\Valkir...')
+#5 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\admin.php(153): require('C:\\Users\\Valkir...')
+#6 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Valkir...')
+#7 {m en C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php en la línea 9
+
+2020-02-12T19:26:54+00:00 CRITICAL Uncaught Error: Call to undefined function hoteller_get_page_postmetas() in C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php:9
+Stack trace:
+#0 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(288): hoteller_page_create_meta_box('')
+#1 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\menu.php(326): require_once('C:\\Users\\Valkir...')
+#5 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\admin.php(153): require('C:\\Users\\Valkir...')
+#6 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Valkir...')
+#7 {m en C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php en la línea 9
+
+2020-02-12T19:28:05+00:00 CRITICAL Uncaught Error: Call to undefined function hoteller_get_page_postmetas() in C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php:9
+Stack trace:
+#0 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(288): hoteller_page_create_meta_box('')
+#1 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\menu.php(326): require_once('C:\\Users\\Valkir...')
+#5 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\admin.php(153): require('C:\\Users\\Valkir...')
+#6 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Valkir...')
+#7 {m en C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php en la línea 9
+
+2020-02-12T19:28:35+00:00 CRITICAL Uncaught Error: Call to undefined function hoteller_get_page_postmetas() in C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php:9
+Stack trace:
+#0 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(288): hoteller_page_create_meta_box('')
+#1 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\menu.php(326): require_once('C:\\Users\\Valkir...')
+#5 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\admin.php(153): require('C:\\Users\\Valkir...')
+#6 C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Valkir...')
+#7 {m en C:\Users\Valkiria\Local Sites\hotelrayon\app\public\wp-content\plugins\hoteller-elementor\page-fields.php en la línea 9
+

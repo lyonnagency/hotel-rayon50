@@ -1,0 +1,1 @@
+<div class="availability_search_wrapper"><?php echo do_shortcode('[mphb_availability_search]'); ?></div>

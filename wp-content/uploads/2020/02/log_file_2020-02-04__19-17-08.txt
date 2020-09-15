@@ -1,0 +1,48 @@
+
+---Downloaded files---
+The import files for: Boutique Hotel were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://hotelrayon.local
+Data file = C:\Users\Valkiria\Local Sites\hotelrayon\app\public/wp-content/themes/hoteller/cache/demos/xml/demo7/7.xml
+Widget file = C:\Users\Valkiria\Local Sites\hotelrayon\app\public/wp-content/themes/hoteller/cache/demos/xml/demo7/7.wie
+Customizer file = C:\Users\Valkiria\Local Sites\hotelrayon\app\public/wp-content/themes/hoteller/cache/demos/xml/demo7/7.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+side-menu-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Search Availability - Check Availibility - Imported to Inactive
+
+Page Sidebar : 
+
+Search Availability - Book Your Stay - Imported
+Texto - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

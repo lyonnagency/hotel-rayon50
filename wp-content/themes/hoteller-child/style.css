@@ -1,0 +1,463 @@
+/*
+Theme Name: Hoteller Child
+Theme URI: https://themes.themegoods.com/hoteller/landing
+Description: Premium Photography WordPress Theme
+Version: 1.0
+Author: ThemeGoods
+Author URI: https://themeforest.net/user/ThemeGoods
+License: GNU General Public License
+License URI: https://themeforest.net/licenses/regular_extended
+Text Domain: hoteller
+Template: hoteller
+*/
+@import "bootstrap.min.css";
+.color-blue {
+  color: #0f172b;
+}
+
+.color-brown {
+  color: #836544;
+}
+
+.bg-blue {
+  background-color: #0f172b;
+}
+
+.bg-blue-alt {
+  background-color: #121E35;
+}
+
+.custom-container-habitaciones {
+  position: relative;
+  margin-top: -111px;
+}
+
+.hero-habitaciones {
+  height: 100vh;
+  background-size: cover;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-position: center;
+}
+
+.ff-fargoise {
+  font-family: "Miss Fajardose Regular", Sans-serif;
+}
+
+.ff-galano-semibold {
+  font-family: "Galano Grotesque SemiBold";
+}
+
+.ff-galano-bold {
+  font-family: "Galano Grotesque Bold";
+}
+
+.ff-galano-semi-bold {
+  font-family: "Galano Grotesque SemiBold";
+}
+
+.ff-galano-medium {
+  font-family: "Galano Grotesque Medium";
+}
+
+.ff-caslon-bold {
+  font-family: "CaslonNo224-Bold";
+}
+
+.fs-65 {
+  font-size: 55px;
+}
+@media (min-width: 768px) {
+  .fs-65 {
+    font-size: 65px;
+  }
+}
+
+.fs-52 {
+  font-size: 47px !important;
+}
+@media (min-width: 768px) {
+  .fs-52 {
+    font-size: 52px !important;
+  }
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-45 {
+  font-size: 40px;
+}
+@media (min-width: 768px) {
+  .fs-45 {
+    font-size: 45px;
+  }
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-24 {
+  font-size: 22px;
+}
+@media (min-width: 768px) {
+  .fs-24 {
+    font-size: 24px;
+  }
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-14 {
+  font-size: 13px !important;
+}
+@media (min-width: 768px) {
+  .fs-14 {
+    font-size: 14px !important;
+  }
+}
+
+.fs-16 {
+  font-size: 15px;
+}
+@media (min-width: 992px) {
+  .fs-16 {
+    font-size: 16px;
+  }
+}
+
+.track-200 {
+  letter-spacing: 3px;
+}
+
+.hotel-simple-logo {
+  width: 47px;
+  height: 38px;
+}
+
+.description {
+  font-family: "Galano Grotesque";
+  font-size: 13px;
+}
+@media (min-width: 992px) {
+  .description {
+    font-size: 14px;
+  }
+}
+.description p {
+  padding: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .description p {
+    text-align: justify;
+  }
+}
+
+.btn-reservar {
+  background-color: #0f172b;
+  color: white;
+  font-family: "Galano Grotesque SemiBold";
+  font-size: 14px;
+  width: 200px;
+  height: 62px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .btn-reservar {
+    width: 267px;
+  }
+}
+.btn-reservar:hover {
+  color: white;
+  opacity: 0.95;
+  text-decoration: none;
+}
+
+.reservar-ico {
+  width: 22px;
+  height: 12px;
+  position: relative;
+}
+.reservar-ico svg {
+  width: 1em;
+  position: absolute;
+  top: 0;
+}
+
+.ico-amenidades {
+  width: 22px;
+  height: 32px;
+  position: relative;
+}
+.ico-amenidades svg {
+  width: 22px;
+  height: 32px;
+}
+
+.ico-servicios {
+  width: 38px;
+  height: 38px;
+  top: -10px;
+}
+.ico-servicios svg {
+  width: 38px;
+  height: 38px;
+}
+
+.list-custom-habitacion {
+  list-style: none;
+  font-family: "Galano Grotesque SemiBold";
+  font-size: 13px;
+}
+@media (min-width: 992px) {
+  .list-custom-habitacion {
+    font-size: 14px;
+  }
+}
+.list-custom-habitacion li {
+  position: relative;
+  margin-bottom: 25px;
+}
+.list-custom-habitacion li::before {
+  content: "";
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ljc2IDIuNDkiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+bGlzdC1zdHlsZTwvdGl0bGU+PGcgaWQ9IkNhcGFfMiIgZGF0YS1uYW1lPSJDYXBhIDIiPjxnIGlkPSJDYXBhXzEtMiIgZGF0YS1uYW1lPSJDYXBhIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEuNjUsMEE5LDksMCwwLDEsMi44Mi4yTDUsLjcxQTEzLjI5LDEzLjI5LDAsMCwwLDcsMS4wN2EyLjU1LDIuNTUsMCwwLDEsLjU3LjA3LjE5LjE5LDAsMCwxLC4xNi4yLjIuMiwwLDAsMS0uMTQuMmwtLjQyLjA1Yy0uNjQuMS0xLjY5LjI5LTMuMTQuNTdhMTMuMzUsMTMuMzUsMCwwLDEtMi4yOS4zM0EyLDIsMCwwLDEsLjQ4LDIuMTFhMS4xOSwxLjE5LDAsMCwxLS40OC0xQTEsMSwwLDAsMSwuNDcuMzIsMi4wOCwyLjA4LDAsMCwxLDEuNjUsMFoiLz48L2c+PC9nPjwvc3ZnPg==);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  left: -12px;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: none;
+}
+.scrolling-wrapper .card {
+  display: inline-block;
+  width: 400px;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.slick-track {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-habitaciones-page img {
+  max-height: 600px;
+}
+@media (min-width: 768px) {
+  .slider-habitaciones-page img {
+    max-height: fit-content;
+    height: 830px;
+  }
+}
+@media (min-width: 1200px) {
+  .slider-habitaciones-page img {
+    max-height: 680px;
+  }
+}
+
+.slick-arrow {
+  z-index: 10;
+}
+
+.slick-prev {
+  left: 35px !important;
+}
+
+.slick-next {
+  right: 35px !important;
+}
+
+.btn-menu-header, #btn-menu-header {
+  border: navajowhite;
+}
+.btn-menu-header svg, #btn-menu-header svg {
+  width: 1.5em !important;
+}
+
+@media (min-width: 768px) {
+  .elementor-field-required {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+.elementor-field-required::after {
+  content: none;
+}
+@media (min-width: 768px) {
+  .elementor-field-required::after {
+    content: "/";
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    color: #162849;
+  }
+}
+
+.elementor-field-required {
+  margin-top: 60px;
+}
+
+.elementor-field-group-message::after {
+  content: none;
+}
+
+.elementor-field-type-email::after {
+  content: none;
+}
+
+#id_submit_contact {
+  margin-top: 40px;
+}
+
+.btn-bordered {
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid white;
+  font-family: "Galano Grotesque SemiBold";
+  font-size: 14px;
+  color: white;
+}
+.btn-bordered:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.btn-bg-white {
+  background-color: white;
+  color: #0f172b;
+}
+
+.reservar-btn svg {
+  width: 20px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.mt--120 {
+  margin-top: -120px;
+}
+
+.hero-section .elementor-section-stretched {
+  z-index: 0;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .border-md-left {
+    border-left: 1px solid rgba(15, 23, 43, 0.1);
+  }
+}
+
+.slider-single-room .slick-track {
+  height: 300px;
+}
+@media (min-width: 768px) {
+  .slider-single-room .slick-track {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .slider-single-room .slick-track {
+    height: 70vh;
+  }
+}
+
+.card-description-habitation {
+  position: relative;
+  top: -100px;
+  -webkit-box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) {
+  .card-description-habitation {
+    top: -160px;
+  }
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.list-lang-switcher ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.list-lang-switcher ul li:first-child a:after {
+  margin-left: 15px;
+  content: "|";
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.btn-header .elementor-button-text {
+  display: none;
+}
+@media (min-width: 576px) {
+  .btn-header .elementor-button-text {
+    display: inline-block;
+  }
+}
+
+.mobile_menu_wrapper .mobile_main_nav #menu_back, .mobile_menu_wrapper #sub_menu #menu_back {
+  font-family: "CaslonNo224-Bold";
+  color: #836544;
+}
+.mobile_menu_wrapper .mobile_main_nav .menu-item a, .mobile_menu_wrapper #sub_menu .menu-item a {
+  font-family: "CaslonNo224-Bold";
+  color: #836544;
+}
+
+.elementor-field-required {
+  margin-top: 30px !important;
+}
+
+.elementor-187 .elementor-element.elementor-element-8f1346b .slider_parallax_wrapper .slide div.caption div.text {
+  letter-spacing: 0 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,577 @@
+/*
+Theme Name: Hoteller Child
+Theme URI: https://themes.themegoods.com/hoteller/landing
+Description: Premium Photography WordPress Theme
+Version: 1.0
+Author: ThemeGoods
+Author URI: https://themeforest.net/user/ThemeGoods
+License: GNU General Public License
+License URI: https://themeforest.net/licenses/regular_extended
+Text Domain: hoteller
+Template: hoteller
+*/
+
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+
+@import "bootstrap.min.css";
+//variables
+$blue: #0f172b;
+$blue-alt: #121E35;
+$brown: #836544;
+
+
+.color-blue {
+  color: $blue;
+}
+
+.color-brown {
+  color: $brown;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-blue-alt {
+  background-color: $blue-alt;
+}
+
+.custom-container-habitaciones {
+  position: relative;
+  margin-top: -111px;
+
+}
+
+.hero-habitaciones {
+  height: 100vh;
+  background-size: cover;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-position: center;
+  //&:before{
+  //  content: '';
+  //  width: 100%;
+  //  height: 100%;
+  //  position: absolute;
+  //  background-color: rgba(0,0,0,0.5);
+  //  z-index: -1;
+  //}
+}
+
+
+// fonts families
+
+.ff-fargoise {
+  font-family: "Miss Fajardose Regular", Sans-serif;
+}
+
+.ff-galano-semibold {
+  font-family: "Galano Grotesque SemiBold";
+}
+
+.ff-galano-bold {
+  font-family: "Galano Grotesque Bold";
+}
+
+.ff-galano-semi-bold {
+  font-family: "Galano Grotesque SemiBold";
+}
+
+.ff-galano-medium {
+  font-family: "Galano Grotesque Medium";
+}
+
+.ff-caslon-bold {
+  font-family: "CaslonNo224-Bold";
+}
+
+
+//font sizes
+
+.fs-65 {
+  font-size: 55px;
+
+  @include md {
+    font-size: 65px;
+  }
+}
+
+.fs-52 {
+  font-size: 47px !important;
+
+  @include md {
+    font-size: 52px !important;
+  }
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-45 {
+  font-size: 40px;
+
+  @include md {
+    font-size: 45px;
+  }
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-24 {
+  font-size: 22px;
+
+  @include md {
+    font-size: 24px;
+  }
+}
+
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-14 {
+  font-size: 13px !important;
+
+  @include md {
+    font-size: 14px !important;
+  }
+}
+
+.fs-16 {
+  font-size: 15px;
+
+  @include lg {
+    font-size: 16px;
+  }
+}
+
+.track-200 {
+  letter-spacing: 3px;
+}
+
+// page styles
+.hotel-simple-logo {
+  width: 47px;
+  height: 38px;
+}
+
+.description {
+  font-family: "Galano Grotesque";
+  font-size: 13px;
+
+  @include lg {
+    font-size: 14px;
+  }
+
+  p {
+    padding: 0;
+    text-align: center;
+
+    @include md {
+      text-align: justify;
+    }
+  }
+}
+
+.btn-reservar {
+  background-color: $blue;
+  color: white;
+  font-family: 'Galano Grotesque SemiBold';
+  font-size: 14px;
+  width: 200px;
+  height: 62px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include xl {
+    width: 267px;
+  }
+
+  &:hover {
+    color: white;
+    opacity: 0.95;
+    text-decoration: none;
+  }
+}
+
+.reservar-ico {
+  width: 22px;
+  height: 12px;
+  position: relative;
+
+  svg {
+    width: 1em;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.ico-amenidades {
+  width: 22px;
+  height: 32px;
+  position: relative;
+
+  svg {
+    width: 22px;
+    height: 32px;
+  }
+}
+
+.ico-servicios {
+  width: 38px;
+  height: 38px;
+  top: -10px;
+
+  svg {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.list-custom-habitacion {
+  list-style: none;
+  font-family: 'Galano Grotesque SemiBold';
+  font-size: 13px;
+
+  @include lg {
+    font-size: 14px;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 25px;
+
+    &::before {
+      content: '';
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ljc2IDIuNDkiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+bGlzdC1zdHlsZTwvdGl0bGU+PGcgaWQ9IkNhcGFfMiIgZGF0YS1uYW1lPSJDYXBhIDIiPjxnIGlkPSJDYXBhXzEtMiIgZGF0YS1uYW1lPSJDYXBhIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEuNjUsMEE5LDksMCwwLDEsMi44Mi4yTDUsLjcxQTEzLjI5LDEzLjI5LDAsMCwwLDcsMS4wN2EyLjU1LDIuNTUsMCwwLDEsLjU3LjA3LjE5LjE5LDAsMCwxLC4xNi4yLjIuMiwwLDAsMS0uMTQuMmwtLjQyLjA1Yy0uNjQuMS0xLjY5LjI5LTMuMTQuNTdhMTMuMzUsMTMuMzUsMCwwLDEtMi4yOS4zM0EyLDIsMCwwLDEsLjQ4LDIuMTFhMS4xOSwxLjE5LDAsMCwxLS40OC0xQTEsMSwwLDAsMSwuNDcuMzIsMi4wOCwyLjA4LDAsMCwxLDEuNjUsMFoiLz48L2c+PC9nPjwvc3ZnPg==);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 7px;
+      height: 2px;
+      display: inline-block;
+      position: absolute;
+      top: 11px;
+      left: -12px;
+    }
+  }
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+//
+//.carousel-inner{
+//  //display: flex;
+//  height: 100vh;
+//  max-height: 80vh;
+//}
+//.carousel-item{
+//  //display: inline-block;
+//  //z-index: 0;
+//  position: relative;
+//  img{
+//    position: absolute;
+//    //bottom: 10%;
+//  }
+//}
+//
+//.carousel-item.active{
+//  z-index: 10;
+//}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: none;
+
+  .card {
+    display: inline-block;
+    width: 400px;
+  }
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.slick-track {
+  //max-height: 65vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-habitaciones-page {
+
+  img {
+    max-height: 600px;
+
+    @include md {
+      max-height: fit-content;
+      height: 830px;
+    }
+
+    @include xl {
+      max-height: 680px;
+    }
+  }
+}
+
+//.wrapper-hab{
+//  max-height: 85vh;
+//}
+
+.slick-arrow {
+  z-index: 10;
+}
+
+.slick-prev {
+  left: 35px !important;
+}
+
+.slick-next {
+  right: 35px !important;
+}
+
+.btn-menu-header, #btn-menu-header {
+  border: navajowhite;
+
+  svg {
+    width: 1.5em !important;
+  }
+}
+
+
+.elementor-field-required {
+  @include md {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  &::after {
+    content: none;
+    @include md {
+      content: '/';
+      width: 2px;
+      height: 2px;
+      position: absolute;
+      right: 0;
+      color: #162849;
+    }
+  }
+}
+
+.elementor-field-required {
+  margin-top: 60px;
+}
+
+.elementor-field-group-message::after {
+  content: none;
+}
+
+.elementor-field-type-email::after {
+  content: none;
+}
+
+#id_submit_contact {
+  margin-top: 40px;
+}
+
+
+.btn-bordered {
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid white;
+  font-family: 'Galano Grotesque SemiBold';
+  font-size: 14px;
+  color: white;
+
+  &:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
+}
+
+.btn-bg-white {
+  background-color: white;
+  color: #0f172b;
+}
+
+.reservar-btn {
+
+  svg {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+  }
+}
+
+.mt--120 {
+  margin-top: -120px;
+}
+
+.hero-section {
+  .elementor-section-stretched {
+    z-index: 0;
+  }
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.border-md-left {
+  @include md {
+    border-left: 1px solid rgba(15, 23, 43, 0.10);
+  }
+}
+
+
+.slider-single-room {
+  .slick-track {
+    height: 300px;
+
+    @include md {
+      height: 400px;
+    }
+
+    @include lg {
+      height: 70vh;
+    }
+  }
+}
+
+.card-description-habitation {
+  position: relative;
+  top: -100px;
+  -webkit-box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.2);
+
+  @include md {
+    top: -160px;
+  }
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.list-lang-switcher {
+  ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+
+    li:first-child {
+      a {
+        &:after {
+          margin-left: 15px;
+          content: '|';
+        }
+      }
+    }
+  }
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.btn-header {
+  .elementor-button-text {
+    display: none;
+    @include sm {
+      display: inline-block;
+    }
+  }
+}
+
+.mobile_menu_wrapper {
+  .mobile_main_nav, #sub_menu {
+    #menu_back {
+      font-family: 'CaslonNo224-Bold';
+      color: $brown;
+    }
+
+    .menu-item {
+      a {
+        font-family: 'CaslonNo224-Bold';
+        color: $brown;
+      }
+    }
+  }
+}
+
+.elementor-field-required {
+  margin-top: 30px !important;
+}
+
+.elementor-187 .elementor-element.elementor-element-8f1346b .slider_parallax_wrapper .slide div.caption div.text{
+  letter-spacing: 0!important;
+}
+

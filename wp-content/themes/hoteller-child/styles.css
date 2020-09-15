@@ -1,0 +1,184 @@
+/*
+Theme Name: Hoteller Child
+Theme URI: https://themes.themegoods.com/hoteller/landing
+Description: Premium Photography WordPress Theme
+Version: 1.0
+Author: ThemeGoods
+Author URI: https://themeforest.net/user/ThemeGoods
+License: GNU General Public License
+License URI: https://themeforest.net/licenses/regular_extended
+Text Domain: hoteller
+Template: hoteller
+*/
+@import url(bootstrap.min.css);
+.color-blue {
+  color: #0f172b; }
+
+.color-brown {
+  color: #836544; }
+
+.bg-blue {
+  background-color: #0f172b; }
+
+.custom-container-habitaciones {
+  position: relative;
+  margin-top: -93px; }
+
+.hero-habitaciones {
+  height: 100vh;
+  background-size: cover;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply; }
+
+.ff-fargoise {
+  font-family: "Miss Fajardose Regular", Sans-serif; }
+
+.ff-galano-semibold {
+  font-family: "Galano Grotesque SemiBold"; }
+
+.ff-galano-bold {
+  font-family: "Galano Grotesque Bold"; }
+
+.ff-galano-semi-bold {
+  font-family: "Galano Grotesque SemiBold"; }
+
+.ff-caslon-bold {
+  font-family: "CaslonNo224-Bold"; }
+
+.fs-65 {
+  font-size: 65px; }
+
+.fs-52 {
+  font-size: 52px; }
+
+.fs-40 {
+  font-size: 40px; }
+
+.fs-45 {
+  font-size: 45px; }
+
+.fs-24 {
+  font-size: 24px; }
+
+.fs-14 {
+  font-size: 14px; }
+
+.fs-16 {
+  font-size: 16px; }
+
+.track-200 {
+  letter-spacing: 3px; }
+
+.hotel-simple-logo {
+  width: 47px;
+  height: 38px; }
+
+.description {
+  font-family: "Galano Grotesque";
+  font-size: 14px; }
+  .description p {
+    padding: 0;
+    text-align: justify; }
+
+.btn-reservar {
+  background-color: #0f172b;
+  color: white;
+  font-family: 'Galano Grotesque SemiBold';
+  font-size: 14px;
+  width: 267px;
+  height: 62px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-reservar:hover {
+    color: white;
+    opacity: 0.95;
+    text-decoration: none; }
+
+.reservar-ico {
+  width: 22px;
+  height: 12px;
+  position: relative; }
+  .reservar-ico svg {
+    width: 1em;
+    position: absolute;
+    top: 0; }
+
+.ico-amenidades {
+  width: 22px;
+  height: 32px;
+  position: relative; }
+  .ico-amenidades svg {
+    width: 22px;
+    height: 32px; }
+
+.ico-servicios {
+  width: 38px;
+  height: 38px;
+  top: -10px; }
+  .ico-servicios svg {
+    width: 38px;
+    height: 38px; }
+
+.list-custom-habitacion {
+  list-style: none;
+  font-family: 'Galano Grotesque SemiBold';
+  font-size: 14px; }
+  .list-custom-habitacion li {
+    position: relative;
+    margin-bottom: 25px; }
+    .list-custom-habitacion li::before {
+      content: '';
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ljc2IDIuNDkiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+bGlzdC1zdHlsZTwvdGl0bGU+PGcgaWQ9IkNhcGFfMiIgZGF0YS1uYW1lPSJDYXBhIDIiPjxnIGlkPSJDYXBhXzEtMiIgZGF0YS1uYW1lPSJDYXBhIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEuNjUsMEE5LDksMCwwLDEsMi44Mi4yTDUsLjcxQTEzLjI5LDEzLjI5LDAsMCwwLDcsMS4wN2EyLjU1LDIuNTUsMCwwLDEsLjU3LjA3LjE5LjE5LDAsMCwxLC4xNi4yLjIuMiwwLDAsMS0uMTQuMmwtLjQyLjA1Yy0uNjQuMS0xLjY5LjI5LTMuMTQuNTdhMTMuMzUsMTMuMzUsMCwwLDEtMi4yOS4zM0EyLDIsMCwwLDEsLjQ4LDIuMTFhMS4xOSwxLjE5LDAsMCwxLS40OC0xQTEsMSwwLDAsMSwuNDcuMzIsMi4wOCwyLjA4LDAsMCwxLDEuNjUsMFoiLz48L2c+PC9nPjwvc3ZnPg==);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 7px;
+      height: 2px;
+      display: inline-block;
+      position: absolute;
+      top: 11px;
+      left: -12px; }
+
+.h-fit {
+  height: fit-content; }
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: none; }
+  .scrolling-wrapper .card {
+    display: inline-block;
+    width: 400px; }
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; }
+  .scrolling-wrapper-flexbox .card {
+    flex: 0 0 auto; }
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch; }
+
+.slick-track {
+  max-height: 60vh;
+  overflow: hidden; }
+
+.slick-arrow {
+  z-index: 10; }
+
+.slick-prev {
+  left: 35px !important; }
+
+.slick-next {
+  right: 35px !important; }
+
+#btn-menu-header {
+  border: navajowhite; }
+  #btn-menu-header svg {
+    width: 1.5em !important; }
+
+/*# sourceMappingURL=styles.css.map */
